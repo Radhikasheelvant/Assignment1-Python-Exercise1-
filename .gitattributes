@@ -85,3 +85,79 @@ else:
    print(x, y) 
 
 4.	Otherwise, it should return the same number.
+
+
+
+Assignmnet2
+1.	Write a program which contains one function named as Fun(). That function should display “Hello from Fun” on console
+Ans = def fun():
+                 print(“Hello from fun”)
+	fun()
+
+
+2.	Write a program which contains one function named as ChkNum () which accept one
+ parameter as number. If number is even then it should display “Even number” otherwise display “Odd number” on console.
+Ans = def ChkNum(num):
+    if(num%2==0):
+        print("Even number")
+    else:
+        print("Odd number")
+print("Enter a number")
+num=int(input())
+ChkNum(num)
+
+3.	Write a program which contains one function named as Add () which accepts two numbers from user and return addition of that two numbers.
+Ans = def add(a,b):
+    print("Addition of Number is")
+print("Enter a number")
+a=int(input())
+print("Enter a second number")
+b=int(input())
+z=(a+b)
+add(a,b)
+print(z)
+
+4.	Write a program which display 5 times Marvelous on screen.
+Ans = for i in (1,2,3,4,5):
+               print("Marvelous")
+
+5.	Write a program which display 10 to 1 on screen.
+Ans = a=[1,2,3,4,5,6,7,8,9,10]
+print(a[::-1])
+
+6.	Write a program which accept number from user and check whether that number is positive or negative or zero.
+Ans = print('Enter a number')
+a=int(input())
+if (a>0):
+    print("Positive number")
+else:
+    if(a<0):
+        print("Negetive number")
+    else:
+        print("Zero number")
+
+7.	Write a program which contains one function that accept one number from user and returns true if number is divisible by 5 otherwise return false.
+Ans = print("Enter a number")
+num=int(input())
+if (num%5==0):
+    print("True")
+else:
+    print("False")
+
+8.	Write a program which accept number from user and print that number of “*” on screen.
+Ans = print("Enter a number")
+num=int(input())
+print(num*num)
+
+9.	Write a program which display first 10 even numbers on screen.
+Ans = a=[]
+for i in range(1,21):
+    a.append(i)
+for i in a:
+    if (i%2==0):
+        print(i)
+
+10.	Write a program which accept name from user and display length of its name.
+Ans = print('Enter a name')
+name=str(input())
+print(len(name))
