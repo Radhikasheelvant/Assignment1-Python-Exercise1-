@@ -88,7 +88,9 @@ else:
 
 
 
- 1.	Write a program which contains one function named as Fun(). That function should display “Hello from Fun” on console
+
+
+1.	Write a program which contains one function named as Fun(). That function should display “Hello from Fun” on console
 Ans = def fun():
                  print(“Hello from fun”)
 	fun()
@@ -160,4 +162,3 @@ for i in a:
 Ans = print('Enter a name')
 name=str(input())
 print(len(name))
-
